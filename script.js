@@ -9,5 +9,5 @@ function initMap(){
     //1.4036986645295546, 103.90331443412312
 
     function rentvehicle(){
-        window.open("https://www.3schools.in");
+        window.open("pages/rental.html");
         }

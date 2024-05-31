@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Display a map</title>
+  <title>Park & Ride System</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.maptiler.com/maptiler-geocoding-control/v1.2.0/leaflet.umd.js"></script>
@@ -47,14 +48,13 @@
         marker2.bindPopup('<span class="popup">' +
           '<b>Bideford Road Carpark</b><br>' +
           'Address: 22 Bideford Rd , Floor 1<br>' +
-          'Parking Slot:<a href="">Click here</a><br> ' +
-          '<a href="https://www.google.com/maps/place/22+Bideford+Road+Carpark/@1.3035325,103.8343461,17z/data=!3m2!4b1!5s0x31da1990375bad97:0x6b755ef64ef24c2a!4m6!3m5!1s0x31da19368136c1fb:0x41040a2934594256!8m2!3d1.3035271!4d103.836921!16s%2Fg%2F11mvryt1cw?entry=ttu" target="_blank">Google Map</a><br>' +
-          'Phone: <a href="tel:123">123</a><br>' +
+          'Phone: <a href="tel:123">6639 1256</a><br>' +
+          'Vehicle Parking Management System: <a href="http://localhost/SimpleParkingMgSystem_CI/" target="_blank">Admin Click here</a><br>' +
           '<button onclick="rentvehicle()">Rent Car</button>' +
           '</span>');
 
           function rentvehicle(){
-        window.open("https://themewagon.github.io/carbook/");
+        window.open("http://localhost/Car_Rental-PHP/");
         }
  
   
